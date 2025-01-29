@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Julia Saldanha - Psiquiatra</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+        }
+        header {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #fff;
+            text-align: center;
+            padding: 80px 20px;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            font-weight: bold;
+        }
+        header p {
+            font-size: 1.4em;
+            margin-top: 10px;
+            opacity: 0.9;
+        }
+        .btn {
+            display: inline-block;
+            background: #ff4081;
+            color: #fff;
+            padding: 14px 30px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 30px;
+            transition: 0.3s;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+            margin-top: 20px; /* Adicionando margem no topo */
+        }
+        .btn:hover {
+            background: #d81b60;
+        }
+        section {
+            margin: 50px 0;
+            padding: 40px;
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+        }
+        section:hover {
+            transform: translateY(-5px);
+        }
+        section h2 {
+            color: #6a11cb;
+            text-align: center;
+            font-size: 2.2em;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        ul li {
+            font-size: 1.2em;
+            background: #eef2f3;
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 25px;
+            border-radius: 20px;
+        }
+        blockquote {
+            font-style: italic;
+            text-align: center;
+            font-size: 1.5em;
+            color: #555;
+            margin-top: 20px;
+        }
+        cite {
+            display: block;
+            text-align: center;
+            font-size: 1.2em;
+            color: #777;
+            margin-top: 10px;
+        }
+        form input, form textarea, form button {
+            display: block;
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 14px;
+            font-size: 1.1em;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        form button {
+            background: #6a11cb;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s;
+            font-size: 1.2em;
+        }
+        form button:hover {
+            background: #2575fc;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+            font-size: 1.1em;
+        }
+
+        /* Ajustes no botão do WhatsApp */
+        #contato .btn {
+            margin-top: 30px; /* Maior distância do conteúdo */
+            margin-block-end: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Dra. Julia Saldanha</h1>
+            <p>Especialista em Saúde Mental e Bem-Estar</p>
+            <a href="#contato" class="btn">Agende sua Consulta</a>
+        </div>
+    </header>
+    
+    <section id="sobre" class="container">
+        <h2>Sobre a Doutora</h2>
+        <p>Formada em Psiquiatria, com vasta experiência no tratamento de transtornos mentais como ansiedade, depressão e TDAH.</p>
+    </section>
+    
+    <section id="especialidades" class="container">
+        <h2>Especialidades</h2>
+        <ul>
+            <li>Ansiedade</li>
+            <li>Depressão</li>
+            <li>TDAH</li>
+            <li>Transtorno Bipolar</li>
+            <li>Esquizofrenia</li>
+        </ul>
+    </section>
+    
+    <section id="depoimentos" class="container">
+        <h2>Depoimentos</h2>
+        <blockquote>“A Dra. Julia me ajudou a transformar minha vida. Recomendo muito!”</blockquote>
+        <cite>- Paciente satisfeito</cite>
+    </section>
+    
+    <section id="contato" class="container">
+        <h2>Agende uma Consulta</h2>
+        <p>Entre em contato pelo WhatsApp ou preencha o formulário abaixo:</p>
+        <a href="https://wa.me/5515997374615" class="btn">Fale pelo WhatsApp</a>
+        <form>
+            <input type="text" placeholder="Seu Nome" required>
+            <input type="email" placeholder="Seu E-mail" required>
+            <textarea placeholder="Sua Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Dra. Julia Saldanha - Todos os direitos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
